@@ -1,0 +1,1 @@
+mvn clean -Dtest=UATSmokeTest_TestSuite test -DuserName=mjian0	-Dpassword=Winter2018 -DbrowserTest=CHROME -DconsoleLogLevel=NO_STEP -DretryFailedTestCase=1

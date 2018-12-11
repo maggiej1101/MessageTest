@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="smokeTest_TestSuite" verbose="1">	
+<listeners>    
+    <listener class-name="dtn.automation.listeners.AnnotationTransformer"/>
+    <listener class-name="dtn.automation.listeners.CustomizeEmailableReport"/>
+    <listener class-name="dtn.automation.listeners.TestListener"/>
+</listeners>
+  <test name="messageBMW_TestSuite">
+    <classes>           
+      <class name="functionTest.QA.messageBMW_TestSuite"/>      
+    </classes>
+  </test> <!-- smokeTest_TestSuite -->    
+</suite> <!-- smokeTest_TestSuite suite -->
