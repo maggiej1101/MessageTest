@@ -26,7 +26,7 @@ import com.google.common.base.Predicate;
 
 /*
  	Description: common Methods/Functions
- 	@author: Thao.Le
+ 	@author: Maggie.Jiang
 */
 
 public class CommonMethods {
@@ -103,7 +103,7 @@ public class CommonMethods {
 	 * 	It can be used for checking if entered fields have correct values
 	 *	@param	 text		The input raw text
 	 *  @return	 The parsed digits string
-	 *  @author Quinn Song	
+	 *  @author Maggie Jiang	
 	 */
 	public static String getPureText(String text) {
 		if (text.matches("\\w\\d\\w\\s\\d\\w\\d")) {
@@ -185,7 +185,6 @@ public class CommonMethods {
 	 * To convert a number to USD currency
 	 * @param price
 	 * @return
-	 * @author Thao Le
 	 */
 	public static String priceInUSD(int price) {
         int result = price;
