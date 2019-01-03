@@ -15,7 +15,7 @@ import dtn.automation.utilities.Log;
 
 /*
     Description: Methods/Functions for Browser
-    @author Thao.Le
+    @author Maggie.Jiang
  */
 
 public class Browser {
@@ -48,6 +48,7 @@ public class Browser {
 	public void setBrowser(String browser) {
 		this.browser = browser;
 	}
+	
 	public void launchBrowser(){	
 		String tempBrowser = browser.toUpperCase();
 		try{
