@@ -17,7 +17,6 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * @author Thao Le
  * This class to create a custom emailable report html file. 
  * This class will help to handle what column, information that needs to display in the report.
  *
