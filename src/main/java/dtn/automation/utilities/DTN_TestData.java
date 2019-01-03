@@ -13,7 +13,7 @@ import java.util.Map;
  * For example: in TestData, there is two worksheet: Main and Applicant. 
  * This class will read data from Main, then if 'APP_FLAG' is not empty in Main, 
  * this class will read data from Applicant. 
- * @author thao.le
+ * @author Maggie J
  *
  */
 public class DTN_TestData{
@@ -32,7 +32,7 @@ public class DTN_TestData{
 	 * For example: DTN_TestData("SmokeTest_TestData.xls", "TC01")
 	 * @param FilePath
 	 * @param testCaseID
-	 * @author thao.le
+	 * @author Maggie J
 	 */
 	public DTN_TestData(String FilePath,String testCaseID){
 		this.Main = new ReadTestData(FilePath,"Main",testCaseID);
@@ -76,7 +76,7 @@ public class DTN_TestData{
 	 * To get value from 'Main' worksheet based on Column name
 	 * @param Key column header name 
 	 * @return value of column 
-	 * @author thao.le
+	 * @author Maggie J
 	 */
 	public String getMainValue(String Key){
 		return this.Main.getTestData().get(Key);
@@ -85,7 +85,7 @@ public class DTN_TestData{
 	 * To get value from 'Applicant' worksheet based on Column name
 	 * @param Key
 	 * @return
-	 * @author thao.le
+	 * @author Maggie J
 	 */
 	public String getApplicantValue(String Key){
 		return this.Applicant.getTestData().get(Key);
@@ -94,7 +94,7 @@ public class DTN_TestData{
 	 * To get value from Worksheet Other Info worksheet based on Column name
 	 * @param Key
 	 * @return
-	 * @author Thao Le
+	 * @author Maggie J
 	 */
 	public String getWorksheetOtherInfoValue(String Key){
 		return this.WorksheetOtherInfo.getTestData().get(Key);
@@ -103,7 +103,7 @@ public class DTN_TestData{
 	 * To get value from Vehicle worksheet based on Column name
 	 * @param Key
 	 * @return
-	 * @author Thao Le
+	 * @author Maggie J
 	 */
 	public String getVehicleValue(String Key){
 		return this.Vehicle.getTestData().get(Key);
@@ -112,7 +112,7 @@ public class DTN_TestData{
 	 * To get value from 'CoApplicant' worksheet based on Column name
 	 * @param Key
 	 * @return
-	 * @author thao.le
+	 * @author Maggie J
 	 */
 	public String getCoApplicantValue(String Key){
 		return this.CoApplicant.getTestData().get(Key);
@@ -122,7 +122,7 @@ public class DTN_TestData{
 	 * To get value from 'Credit Bureau' worksheet based on Column name
 	 * @param Key
 	 * @return
-	 * @author thao.le
+	 * @author Maggie J
 	 */
 	public String getCreditBureauValue(String Key){
 		return this.CreditBureau.getTestData().get(Key);
@@ -141,7 +141,7 @@ public class DTN_TestData{
 
 	/**
 	 * To read all data in worksheet using TestCase ID
-	 * @author thao.le
+	 * @author Maggie J
 	 *
 	 */
 	public class ReadTestData {
