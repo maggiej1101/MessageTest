@@ -41,7 +41,7 @@ public class Element {
 	
 	/**
 	 * This is a construction method to initial a Element object
-	 * @author Thao Le
+	 * @author Maggie Jiang
 	 * @param Driver
 	 * @param Element
 	 */
@@ -51,7 +51,7 @@ public class Element {
 	}
 	/**
 	 * This is a construction method to initial a Element object
-	 * @author Thao Le
+	 * @author Maggie Jiang
 	 * @param Driver
 	 * @param by
 	 */
@@ -90,7 +90,7 @@ public class Element {
 	}
 	/**
 	 * Wait until the expected element is displayed. Time out for waiting period is in second.
-	 * @author Thao Le
+	 * @author Maggie Jiang
 	 * @param by Element by value
 	 * @param iSecond Time in second to wait until the element is displayed
 	 * @return True if element is displayed, False if element is not displayed 
@@ -115,7 +115,6 @@ public class Element {
 	}
 	/**
 	 * Wait for the element visible on page using a constant timeout.
-	 * @update Thao Le
 	 * @param by Element by value
 	 * @return True if element is displayed, False if element is not displayed 
 	 */
@@ -344,7 +343,7 @@ public class Element {
 	 * Click on the element and wait until Page is loaded completely. 
 	 * This method will log as debug in log file.
 	 * @throws Exception
-	 * @author Thao Le
+	 * @author  Maggie Jiang
 	 */
 	public void clickAndIgnoreAlert() throws Exception{
 		try {
@@ -469,7 +468,7 @@ public class Element {
 	 * @author Quinn Song modified	Added a loop to retry
 	 * @param text					text to enter into textbox
 	 * @throws Exception 			Exceptions that may occur
-	 * @author Thao Le
+	 * @author  Maggie Jiang
 	 */
 	public void sendTextWithRetry(String text) throws Exception{
 		try {
@@ -583,7 +582,7 @@ public class Element {
 	 * Enter text into textbox by entering each character of text 
 	 * @param text
 	 * @throws Exception
-	 * @author Thao Le
+	 * @author Maggie Jiang
 	 */
 	public void enterEachCharInString(String text) throws Exception{
 		try {
@@ -647,7 +646,7 @@ public class Element {
 	 * Enter text into textbox by entering each character of text 
 	 * @param text
 	 * @throws Exception
-	 * @author Thao Le
+	 * @author Maggie Jiang
 	 */
 	public void enterEachCharInStringInCurrencyField(String text) throws Exception{
 		try {
@@ -718,7 +717,7 @@ public class Element {
 	 * Enter text into textbox by entering each character of text 
 	 * @param text
 	 * @throws Exception
-	 * @author Thao Le
+	 * @author Maggie Jiang
 	 */
 	public void enterEachCharInString(String text, int millisecondSleep) throws Exception{
 		try {
@@ -782,7 +781,8 @@ public class Element {
 	 * Enter text into textbox by entering each character of text 
 	 * @param text
 	 * @throws Exception
-	 * @author Thao Le
+	 * @author Maggie Jiang
+	 
 	 */
 	public void enterEachCharInStringInCurrencyField(String text, int millisecondSleep) throws Exception{
 		try {
@@ -880,7 +880,7 @@ public class Element {
 	 * Wait and select an item by index in drop-down list. Popup after is not handled
 	 * Skip if text is already being selected by index from drop-down
 	 * @author Quinn Song 
-	 * @update Thao Le : adding 2000 milliseconds sleep after selecting action finished.
+	 * @update Maggie Jiang : adding 2000 milliseconds sleep after selecting action finished.
 	 * @param index			: item index which needed to select
 	 * @throws Exception 
 	 *//*
@@ -958,7 +958,7 @@ public class Element {
 	 * Wait and select an item by text in drop-down list
 	 * Skip if text is already being selected from drop-down
 	 * @author Quinn Song 
-	 * @update Thao Le : adding 2000 milliseconds sleep after selecting action finished.
+	 * @update Maggie Jiang : adding 2000 milliseconds sleep after selecting action finished.
 	 * @param text 			: Item which needed to select
 	 * @param expectPopup	: True if popup will show afterwards
 	 * @throws Exception 
@@ -1045,7 +1045,7 @@ public class Element {
 	 * Wait and select an item by text in drop-down list
 	 * Skip if text is already being selected from drop-down
 	 * @author Quinn Song 
-	 * @update Thao Le : adding 2000 milliseconds sleep after selecting action finished.
+	 * @update Maggie Jiang : adding 2000 milliseconds sleep after selecting action finished.
 	 * @param text 			: Item which needed to select
 	 * @param expectPopup	: True if popup will show afterwards
 	 * @throws Exception 
@@ -1161,7 +1161,7 @@ public class Element {
 	 * To hit key on keyboard 
 	 * @param keyBoard : key on keyboard
 	 * @throws Exception
-	 * @author Thao Le
+	 * @author Maggie Jiang
 	 */
 	public void enterKeyBoard(Keys keyBoard) throws Exception{
 		try {
@@ -1176,8 +1176,7 @@ public class Element {
 	}	
 	/**
 	 * Enter a text into a textbox element.
-	 * @author Quinn Song modified: Added a loop to retry
-	 * Modified by Thao Le
+	 * @author Maggie Jiang
 	 * @param text
 	 * @throws Exception 
 	 */
@@ -1277,7 +1276,7 @@ public class Element {
 	 * To verify if element contains expected text
 	 * @param text
 	 * @return
-	 * @author Thao Le
+	 * @author Maggie Jiang
 	 * @throws Exception 
 	 */
 	public boolean containText(String text) throws Exception{
@@ -1300,7 +1299,7 @@ public class Element {
 	 * To get text from element
 	 * @return
 	 * @throws Exception
-	 * @author Thao Le
+	 * @author Maggie Jiang
 	 */
 	public String getText() throws Exception{
 		String text = null;
@@ -1319,7 +1318,7 @@ public class Element {
 	 * To get text from element
 	 * @return
 	 * @throws Exception
-	 * @author Thao Le
+	 * @author Maggie Jiang
 	 */
 	public String getAttribute(String value) throws Exception{
 		String text = null;
