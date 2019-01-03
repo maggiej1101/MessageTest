@@ -152,7 +152,6 @@ public class WebTable{
 	 * 
 	 * @param text
 	 * @return (row,col) location of text
-	 * @author Thao Le
 	 * @throws Exception 
 	 */
 	public int[] getRowColIndexOfText(String text) throws Exception{	
