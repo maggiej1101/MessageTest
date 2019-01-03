@@ -6,7 +6,7 @@ import dtn.automation.core.Element;
 
 /**
  * This class to keep all constants using for DTN
- * @author thao.le
+ * @author Maggie Jiang
  *
  */
 public class DTNConstant {
