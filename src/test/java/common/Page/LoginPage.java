@@ -23,7 +23,7 @@ public class LoginPage extends BaseTestSuite{
 	 * @param logInUserName
 	 * @param logInPassword
 	 * @throws Exception
-	 * @author Thao Le
+	 * @author Maggie Jiang
 	 */
 	public static void logIn(String URL,String logInUserName, String logInPassword) throws Exception{					
 		browser.navigateURL(URL);
