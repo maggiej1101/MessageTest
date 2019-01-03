@@ -24,7 +24,7 @@ import dtn.automation.utilities.Log;
  * To handle all methods related with Page such as verify elements on Page, 
  * verify title of page, verify text in page, wait for page completely loaded
  * 
- * @author thao.le
+ * @author Maggie.Jiang
  *
  */
 public class Page {
@@ -423,7 +423,7 @@ public class Page {
 			}
 		}	
 		/**
-	     * @author thao.le
+	     * @author Maggie.Jiang
 	     * To scroll down until the end of page
 	     * @param WebDriver
 	     */
@@ -441,7 +441,7 @@ public class Page {
 	    	}
 	    }
 	    /**
-	     * @author thao.le
+	     * @author Maggie.Jiang
 	     * To scroll up until the end of page
 	     * @param WebDriver
 	     */
